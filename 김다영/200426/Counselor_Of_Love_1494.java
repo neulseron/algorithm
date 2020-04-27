@@ -26,7 +26,8 @@ public class Counselor_Of_Love_1494 {
 				arr[j][1] = scan.nextInt();
 				y_sum += arr[j][1];
 			}
-			dfs(0,0);
+            visited[0] = true;
+			dfs(1,1);
 			System.out.println("#" + i + " " + answer);
 		}
 	}
@@ -54,7 +55,7 @@ public class Counselor_Of_Love_1494 {
 			if(!visited[i])
 			{
 				visited[i] = true;
-				dfs(i,cnt+1);
+				dfs(i + 1,cnt+1);
 				visited[i] = false;
 			}
 		}
