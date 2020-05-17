@@ -1,0 +1,42 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+/************************************************/
+/*SWEA 1859 : 백만 장자 프로젝트				*/
+/*algorithm : for문의 역순						*/
+/************************************************/
+
+int main(int argc, char** argv)
+{
+	int test_case, T;
+	cin >> T;
+	for (test_case = 1; test_case <= T; ++test_case)
+	{
+		int day;
+		long long totalMoney = 0;
+		vector<int> salePrice;
+		cin >> day;
+		salePrice.resize(day);
+		for (int index = 0; index < day; ++index)
+		{
+			cin >> salePrice[index];
+		}
+		
+		int maxPrice = salePrice.back();
+		for (int index = day-2; 0 <= index; --index)
+		{
+			if (maxPrice > salePrice[index])
+			{
+				totalMoney += (maxPrice - salePrice[index]);
+			}
+			else
+			{
+				maxPrice = salePrice[index];
+			}
+		}
+		cout << '#' << test_case << ' ' << totalMoney << endl;
+	}
+	return 0;
+}
