@@ -1,0 +1,41 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+/************************************************/
+/*SWEA 2005 : 파스칼의 삼각형					*/
+/* solution : 이중 for문						*/
+/************************************************/
+
+int main(int argc, char** argv)
+{
+	int test_case, T;
+	cin >> T;
+	for (test_case = 1; test_case <= T; ++test_case)
+	{
+		int maxLine;
+		vector<vector<int>> pascalTriangle;
+		cin >> maxLine;
+		pascalTriangle.resize(maxLine + 1);
+		cout << '#' << test_case << endl;
+		for (int lineNumber = 1; lineNumber <= maxLine; ++lineNumber)
+		{
+			for (int index = 0; index < lineNumber; ++index)
+			{
+				if (index == 0 || index == lineNumber - 1)
+				{
+					pascalTriangle[lineNumber].push_back(1);
+				}
+				else
+				{
+					int pascalNumber = pascalTriangle[lineNumber - 1][index - 1] + pascalTriangle[lineNumber - 1][index];
+					pascalTriangle[lineNumber].push_back(pascalNumber);
+				}
+				cout << pascalTriangle[lineNumber][index] << ' ';
+			}
+			cout << endl;
+		}
+	}
+	return 0;
+}
