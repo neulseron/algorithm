@@ -114,3 +114,23 @@ swea 9839. 최고의 쌍
 
 200523
 swea 3752. 가능한 시험 점수
+
+200526
+[SELECT]
+programmers 모든 레코드 조회하기 (SQL)
+programmers 역순 정렬하기 (SQL)
+programmers 아픈 동물 찾기 (SQL)
+programmers 어린 동물 찾기 (SQL)
+programmers 동물의 아이디와 이름 (SQL)
+programmers 여러 기준으로 정렬하기 (SQL)
+programmers 상위 n개 레코드 (SQL)
+[SUM, MAX, MIN]
+programmers 최댓값 구하기 (SQL)
+programmers 최솟값 구하기 (SQL)
+programmers 동물 수 구하기 (SQL)
+programmers 중복 제거하기 (SQL)
+[GROUP BY]
+programmers 고양이와 개는 몇 마리 있을까 (SQL)
+programmers 동명 동물 수 찾기 (SQL)
+programmers 입양 시각 구하기(1) (SQL)
+programmers 입양 시각 구하기(2) (SQL)
