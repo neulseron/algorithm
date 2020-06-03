@@ -124,13 +124,37 @@ programmers 어린 동물 찾기 (SQL)
 programmers 동물의 아이디와 이름 (SQL)
 programmers 여러 기준으로 정렬하기 (SQL)
 programmers 상위 n개 레코드 (SQL)
+
 [SUM, MAX, MIN]
 programmers 최댓값 구하기 (SQL)
 programmers 최솟값 구하기 (SQL)
 programmers 동물 수 구하기 (SQL)
 programmers 중복 제거하기 (SQL)
+
 [GROUP BY]
 programmers 고양이와 개는 몇 마리 있을까 (SQL)
 programmers 동명 동물 수 찾기 (SQL)
 programmers 입양 시각 구하기(1) (SQL)
 programmers 입양 시각 구하기(2) (SQL)
+
+200527
+[IS NULL]
+programmers 이름이 없는 동물의 아이디 (SQL)
+programmers 이름이 있는 동물의 아이디 (SQL)
+programmers NULL 처리하기 (SQL)
+
+[JOIN]
+programmers 없어진 기록 찾기 (SQL)
+programmers 있었는데요 없었습니다 (SQL)
+programmers 오랜 기간 보호한 동물(1) (SQL)
+programmers 보호소에서 중성화한 동물 (SQL)
+
+[String, Date]
+programmers 루시와 엘라 찾기 (SQL)
+programmers 이름에 el이 들어가는 동물 찾기 (SQL)
+programmers 중성화 여부 파악하기 (SQL)
+programmers 오랜 기간 보호한 동물(2) (SQL)
+programmers DATETIME에서 DATE로 형 변환 (SQL)
+
+200603
+boj 1062. 가르침
