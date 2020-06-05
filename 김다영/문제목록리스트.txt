@@ -158,3 +158,6 @@ programmers DATETIME에서 DATE로 형 변환 (SQL)
 
 200603
 boj 1062. 가르침
+
+200605
+boj 1463. 1로 만들기
