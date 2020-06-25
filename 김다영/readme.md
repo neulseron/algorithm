@@ -8,5 +8,9 @@ boj 1005. ACM Craft https://algorithmstudyfrom0622.tistory.com/3
 
 2020.06.24 문제풀이
 
-1. boj 1012. 유기농 배추 https://algorithmstudyfrom0622.tistory.com/4
+boj 1012. 유기농 배추 https://algorithmstudyfrom0622.tistory.com/4
 
+
+2020.06.25 문제풀이
+
+boj 1010. 다리 놓기 https://algorithmstudyfrom0622.tistory.com/5
