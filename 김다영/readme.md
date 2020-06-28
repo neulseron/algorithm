@@ -17,5 +17,10 @@ boj 1010. 다리 놓기 https://algorithmstudyfrom0622.tistory.com/5
 
 
 2020.06.26 문제풀이
+
 boj 1013. Contact https://algorithmstudyfrom0622.tistory.com/6
+
+2020.06.28 문제풀이
+
+boj 1436. 영화감독 숌 https://algorithmstudyfrom0622.tistory.com/7
 
