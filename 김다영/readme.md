@@ -29,5 +29,6 @@ boj 1436. 영화감독 숌 https://algorithmstudyfrom0622.tistory.com/7
 2020.06.29 문제풀이
 
 boj 14888. 연산자 끼워넣기 https://algorithmstudyfrom0622.tistory.com/8
+
 boj 1629. 곱셈 https://algorithmstudyfrom0622.tistory.com/9
 
