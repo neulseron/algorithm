@@ -1,0 +1,39 @@
+// 문자열 압축
+class Solution {
+    public int solution(String s) {
+        int answer = Integer.MAX_VALUE;
+        int totalLen = s.length();
+        int len, repeat, j;
+        String tmp, cur;
+        if(totalLen==1)
+            return 1;
+        for(int i = 1; i <= totalLen/2; i++){ // 단위
+            len = i; // 총 길이 초기화
+            repeat = 1; // 반복 횟수
+            tmp = s.substring(0,i); // 첫 비교 문자열 저장
+            for(j = i; j < totalLen; j+=i){ // index를 +i하면서 진행
+                if(j+i > totalLen){ // 총 문자열보다 커지면 break;
+                    break;
+                }
+                cur = s.substring(j,j+i); // 현재 문자열
+                if(!cur.equals(tmp)){ // 이전과 다르다면
+                    if(repeat != 1){ // 반복된 적이 있다면
+                        len += Integer.toString(repeat).length(); // 반복된 횟수의 길이만큼 더하기
+                        repeat = 1; // repeat 초기화
+                    }
+                    len += i; // 총 길이에 단위만큼 더하기
+                    tmp = cur; // 비교 문자열을 현재 문자열로 변경
+                }else{ // 같다면
+                    ++repeat; // 반복횟수 증가
+                }
+            }
+            // 남은 데이터 처리
+            if(repeat != 1){
+                len += Integer.toString(repeat).length();
+            }
+            len += (totalLen-j);
+            answer = answer > len ? len : answer;
+        }
+        return answer;
+    }
+}
