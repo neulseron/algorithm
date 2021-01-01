@@ -58,3 +58,7 @@ programmers 코딩테스트 연습 [정렬] C++
 -H_Index
 programmers 코딩테스트 연습 [완전탐색] C++
 -모의고사
+
+21-01-01
+programmers 코딩테스트 연습 [완전탐색] C++
+-소수찾기
