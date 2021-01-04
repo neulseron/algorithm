@@ -69,6 +69,6 @@ programmers 코딩테스트 연습 [탐욕법] C++
 -체육복
 
 21-01-04
-programmers 코딩테스트 연습[탐욕법] C++
+programmers 코딩테스트 연습 [탐욕법] C++
 -조이스틱
 
