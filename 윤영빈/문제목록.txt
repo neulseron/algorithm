@@ -100,3 +100,9 @@ programmers 코딩테스트 연습 [DFS/BFS] C++
 21-01-27
 programmers 코딩테스트 연습 [DFS/BFS] C++
 -여행경로
+
+21-01-28
+programmers 코딩테스트 연습 [동적계획법(DP)] C++
+-정수 삼각형
+
+
