@@ -1,0 +1,40 @@
+#include <vector>
+
+using namespace std;
+
+int MOD = 20170805;
+int answer = 0;
+
+struct direction { int x, y; };
+vector<direction> dir = { { 1, 0 }, { 0, 1 } };
+
+void dfs(int x, int y, int m, int n, vector<vector<int>> city_map, int d) {
+    if (x == m-1 && y == n-1) {
+        answer++;
+        return;
+    }
+
+    if (city_map[x][y] == 0) {
+        for (int i = 0; i < 2; i++) {
+            int next_x = x + dir[i].x;
+            int next_y = y + dir[i].y;
+            d = i;
+            if (next_x < m && next_y < n )
+                dfs(next_x, next_y, m, n, city_map, d);
+        }
+    }
+    else if (city_map[x][y] == 2) {
+        int next_x = x + dir[d].x;
+        int next_y = y + dir[d].y;
+
+        if (next_x < m && next_y < n )
+            dfs(next_x, next_y, m, n, city_map, d);
+    }
+}
+
+// 전역 변수를 정의할 경우 함수 내에 초기화 코드를 꼭 작성해주세요.
+int solution(int m, int n, vector<vector<int>> city_map) {
+    dfs(0, 0, m, n, city_map, 0);
+
+    return answer % MOD;
+}
