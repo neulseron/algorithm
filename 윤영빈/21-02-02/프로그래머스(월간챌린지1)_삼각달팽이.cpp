@@ -33,7 +33,7 @@ vector<int> solution(int n) {
             break;
         
         // down
-        for (int i = 0; i <= down; i++)
+        for (int i = left; i <= down; i++)
             if (triangle[down][i] == 0)
                 triangle[down][i] = num++;
         down--;
