@@ -203,4 +203,5 @@ baekjoon 동적계획법(DP) C++
 
 21-10-14
 baekjoon 동적계획법(DP) C++
--RGB 거리
+-1149번 RGB 거리
+
