@@ -68,7 +68,7 @@ int solution(string s) {
                 
                 len = len - shrinkLength + tmp;
                 
-                cout << ", post Len : " << len << "\n";
+                //cout << ", post Len : " << len << "\n";
             }
         }
         
