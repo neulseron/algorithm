@@ -184,7 +184,7 @@ programmers 코딩테스트 연습 C++
 -더맵게(다시풀기)
 -프린터(다시풀기)
 baekjoon 그래프 C++
--2606번 바이러스
+-2606번 바이러스(union-find)
 -2839번 설탕배달
 -1946번 입사원(Greedy)
 -1260번 DFS와 BFS
@@ -240,3 +240,4 @@ programmers 위클리 챌린지 C++
 programmers 위클리 챌린지 C++
 -최소 직사각형
 -모음사전
+-전력망을 둘로 나누기(union-find)
