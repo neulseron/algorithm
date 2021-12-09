@@ -281,6 +281,8 @@ baekjoon 백트래킹 C++
 21-12-09
 해커랭크 C++
 -Print Pretty(iomanip)
+-Forming a Magic Square(마방진)
 프로그래머스 C++
 -최솟값 만들기
+
 
